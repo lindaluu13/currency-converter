@@ -61,3 +61,9 @@ currency-converter/
   - get_currency(label) — demande à l'utilisateur une devise valide.
   - convert(amount, source, target) — convertit le montant.
   - main() — orchestre la saisie utilisateur et la conversion.
+
+#### Bonnes pratiques
+
+Utilisation de `if __name__ == "__main__":` pour permettre l'import des fonctions sans exécuter le programme principal.
+
+Fonctions modulaires pour faciliter la réutilisation et les tests.
